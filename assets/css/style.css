@@ -1,0 +1,190 @@
+/*font google*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato');
+
+body{
+    background-color: #F2F9F9;
+    z-index:1;
+    font-family: 'Lato', sans-serif;
+    color: #241623;
+    font-size: 20px;
+}
+.banner{
+    background-color: #008991;
+    box-shadow: 0px 20px 50px #283a07;
+    z-index:10;
+}
+.logo{
+    margin-top: 1rem;
+}
+.welcome{
+    color: white;
+    font-weight: bolder;
+    margin-top: 2.3rem;
+}
+/*Titre du site*/
+.spl6s{
+    font-size: 3rem;
+    background-color: #008991;
+    color: white;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 1.2rem;
+}
+.dropdown{
+  margin-top: 1rem;
+}
+/* formulaires gérant les utilisateurs */
+.managment{
+    background-color: #008991;
+    border: 1px solid #91D219;
+    border-radius: 15px;
+    box-shadow: 0px 30px 50px #283a07;
+    margin-top: 20px;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 25px;
+}
+button{
+    background-color: #91D219;
+    color: black;
+    border-color: black;
+    border-radius: 23px 69px;
+}
+.btnPassword{
+    margin-top: 2.5rem;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+/*Fenêtre equipe*/
+.teamWindow{
+    border: 2px solid #008991;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/*Fenêtre objectifs*/
+.goalWindow{
+    border: 2px solid #008991;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+/*Fenêtre resultats financiers*/
+.financeResultWindow{
+    border: 2px solid #008991;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.scheduleWindow{
+    border: 2px solid #008991;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+/*Exemple de page site*/
+.chartPicture{
+    border: 1px solid #441020;
+}
+footer{
+    background-color: #008991;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #91D219;
+    box-shadow: 0px 5px 40px #004b50;
+    color: #008991;
+}
+ul{
+    list-style: none;
+}
+.role{
+    font-size: 0.95rem;
+}
+.scrollerDescription{
+    height: 100px;
+    overflow-y: scroll;
+}
+
+/*Utilisation des medias queries pour les écrans inférieurs à 975px*/
+@media all and (max-width: 975px){
+    #dropdown{
+        color: black;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    p{
+        text-align-last: center;
+        font-size: 18px;
+    }
+    ul{
+        font-size: 18px;
+    }
+    #logo{
+        width: 50%;
+        margin-left: 50px
+    }
+    #connection{
+        margin-top: 0px;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-caption{
+        display: none;
+    }
+    button{
+        width: 70%;
+        font-size: 80%;
+        margin-bottom: 15px;
+    }
+    .btnPassword{
+    margin-top: -10px;
+    margin-left: 70px;
+    width: 75%;
+}
+    .submit{
+        font-size: 80%;
+    }
+    .select{
+        font-size: 65%;
+        margin-bottom: 15px
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 20px;
+        width: 20px;
+    }
+    tr{
+        font-size: 14px;
+    }
+    label{
+        font-size: 14px;
+    }
+    ::placeholder{
+        font-size: 90%;
+    }
+    /*Entête Tableau suivi des mesures clés*/
+    .month{
+        font-size: 10px;
+    }
+    /* Input enregistrement rapport*/
+    .report{
+        font-size: 62%;
+    }
+    .search{
+        font-size: 5%;
+    }
+}
